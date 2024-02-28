@@ -1,0 +1,352 @@
+                /* Parallax */
+.parallax-img {
+    width: 100%;
+    height: 551px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-image: url(../img/welcome-banner.png);
+    background-size:contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat
+}
+
+                /* Fader ID's */  
+#team-fade {
+    opacity: 0;
+    transition: opacity 1s ease
+}
+
+#product-fade {
+    opacity: 0;
+    transition: opacity 1s ease
+}
+
+#contact1-fade {
+    opacity: 0;
+    transition: opacity 1s ease
+}
+
+#contact2-fade {
+    opacity: 0;
+    transition: opacity 1s ease
+}
+
+#id-fade {
+    opacity: 0;
+    transition: opacity 1s ease
+}
+
+            /* Formatting */
+.wrapper {
+    width: 100%;
+    margin:auto;
+}
+
+.padder {
+    padding: 10px
+}
+
+.ib {
+    display: inline-block
+}
+
+.centered {
+    text-align: center;
+    align-content: center
+}
+
+
+            /* Spaces */
+.space {
+    margin-bottom:30px;
+}
+
+.right-space {
+    margin-right:40px;
+}
+
+.left-space {
+    margin-left:40px;
+}
+
+.spaceclass {
+    margin: 40px;
+}
+
+
+            /* General */
+
+body {
+    background-color: #F2F2F2     
+}
+
+#submit-button {
+    color: #1B1464;
+    font-family: "Merriweather";
+    font-weight: 700;
+    margin-right: 40px;
+    font-size: 20px;
+    transition: color 0.5s;
+    padding: 10px;
+    border: 3px solid #2a0f0d;
+    text-align: center;
+    background-color: #B8C6FF;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#submit-button:hover {
+    color: #B8C6FF;
+    background-color: #1B1464;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+.blue-background {
+    background-color: #1B1464
+}
+    
+
+                                        /* Sections */
+.grey-section {
+    text-align: left;
+    background-color: #CCCCCC;
+    background-size: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+                                        /* Text types */
+.section-title {
+    color: #CCCCCC;
+    font-family: "Merriweather";
+    font-weight: 700;
+    margin-right: 40px;
+    font-size: 25px;
+    transition: color 0.5s;
+    padding: 7px
+}
+
+.section-title:hover {
+    color: #B8C6FF;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }  /* controlling appearance of links */
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+h1 {
+    color: #1B1464;
+    font-family: "Lemon";
+    margin-right: 40px;
+    font-size: 25px;
+    transition: color 0.5s;
+    padding: 7px;
+    text-align: center
+    
+}
+
+p {
+    color: #000000;
+    font-family: "Merriweather";
+    font-size: 21px;
+}
+
+label {
+    font-family: "Merriweather";
+    font-size: 24px; 
+    color: #2a0f0d;
+    margin-bottom: 15px
+}
+
+.caption {
+    color: #000000;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px
+}
+
+                /* Products styles */
+.blue-section {
+    text-align: left;
+    background-color: #1B1464;
+    background-size: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.blue-header {
+    color: #B8C6FF;
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.blue-subheader {
+    color: #B8C6FF;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-size: 22px;
+}
+
+.blue-text {
+    color: #B8C6FF;
+    font-family: "Merriweather";
+    font-size: 17px;
+}
+
+.blue-price {
+    color: #B8C6FF;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-size: 25px;
+}
+
+.blue-border {
+    border: 10px solid #B8C6FF;
+    background-color: #B8C6FF;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    margin-right: 100px;
+}
+
+                /* References styles */
+.ref-section {
+    text-align: center;
+    background-color: #333333;
+    background-size: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ref-title {
+    color: #B8C6FF;
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.ref-header {
+    color: #FFFFFF;
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ref-item {
+    color: #CCCCCC;
+    font-family: "Merriweather";
+    font-size: 20px;
+    transition: color, 1s;
+}
+
+.ref-item:hover {
+    color: #FFFFFF;
+}
+
+.blue-border {
+    border: 10px solid #B8C6FF;
+    background-color: #B8C6FF;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    margin-right: 100px;
+}
+
+
+                /* Contact styles */
+.cont-title {
+    color: #000000;
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.cont-subheader {
+    color: #333333;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-size: 20px;
+}
+
+.cont-header {
+    color: #333333;
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+                /* Contact forms */
+#name-form {
+    height:30px;
+    width:375px;
+    font-size:14pt;
+    border: 5px solid #1c0f09;
+    margin-top: 7px;
+    padding: 20px;
+    transition: border 1s
+}
+
+#phone-form {
+    height:30px;
+    width:375px;
+    font-size:14pt;
+    border: 5px solid #1c0f09;
+    margin-top: 7px;
+    padding: 20px;
+    transition: border 1s
+}
+
+#id-form {
+    height:30px;
+    width:375px;
+    font-size:14pt;
+    border: 5px solid #1c0f09;
+    margin-top: 7px;
+    padding: 20px;
+    transition: border 1s;
+}
+
+#reason-form {
+    height:50px;
+    width:375px;
+    font-size:14pt;
+    border: 5px solid #1c0f09;
+    margin-top: 7px;
+    transition: border 1s
+    
+}
+
+#msg-form {
+    height:70px;
+    width:375px;
+    font-size:11pt;
+    border: 5px solid #1c0f09;
+    margin-top: 7px;
+    padding: 10px;
+    transition: border 1s
+}
